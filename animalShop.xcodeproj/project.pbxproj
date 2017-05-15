@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8479B681EC9595400E0ACF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479B671EC9595400E0ACF4 /* main.m */; };
+		A8479B6B1EC9595400E0ACF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479B6A1EC9595400E0ACF4 /* AppDelegate.m */; };
+		A8479B6E1EC9595400E0ACF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479B6D1EC9595400E0ACF4 /* ViewController.m */; };
+		A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8479B6F1EC9595400E0ACF4 /* Main.storyboard */; };
+		A8479B731EC9595400E0ACF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8479B721EC9595400E0ACF4 /* Assets.xcassets */; };
+		A8479B761EC9595400E0ACF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8479B741EC9595400E0ACF4 /* LaunchScreen.storyboard */; };
+		A8479B811EC9595500E0ACF4 /* animalShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479B801EC9595500E0ACF4 /* animalShopTests.m */; };
+		A8479B8C1EC9595500E0ACF4 /* animalShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479B8B1EC9595500E0ACF4 /* animalShopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8479B7D1EC9595500E0ACF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8479B5B1EC9595300E0ACF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8479B621EC9595300E0ACF4;
+			remoteInfo = animalShop;
+		};
+		A8479B881EC9595500E0ACF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8479B5B1EC9595300E0ACF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8479B621EC9595300E0ACF4;
+			remoteInfo = animalShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8479B631EC9595400E0ACF4 /* animalShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animalShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8479B671EC9595400E0ACF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8479B691EC9595400E0ACF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8479B6A1EC9595400E0ACF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8479B6C1EC9595400E0ACF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8479B6D1EC9595400E0ACF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8479B701EC9595400E0ACF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8479B721EC9595400E0ACF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8479B751EC9595400E0ACF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8479B771EC9595400E0ACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8479B7C1EC9595500E0ACF4 /* animalShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animalShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8479B801EC9595500E0ACF4 /* animalShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animalShopTests.m; sourceTree = "<group>"; };
+		A8479B821EC9595500E0ACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8479B871EC9595500E0ACF4 /* animalShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animalShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8479B8B1EC9595500E0ACF4 /* animalShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animalShopUITests.m; sourceTree = "<group>"; };
+		A8479B8D1EC9595500E0ACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8479B601EC9595300E0ACF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8479B791EC9595500E0ACF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8479B841EC9595500E0ACF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8479B5A1EC9595300E0ACF4 = {
+			isa = PBXGroup;
+			children = (
+				A8479B651EC9595400E0ACF4 /* animalShop */,
+				A8479B7F1EC9595500E0ACF4 /* animalShopTests */,
+				A8479B8A1EC9595500E0ACF4 /* animalShopUITests */,
+				A8479B641EC9595400E0ACF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8479B641EC9595400E0ACF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8479B631EC9595400E0ACF4 /* animalShop.app */,
+				A8479B7C1EC9595500E0ACF4 /* animalShopTests.xctest */,
+				A8479B871EC9595500E0ACF4 /* animalShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8479B651EC9595400E0ACF4 /* animalShop */ = {
+			isa = PBXGroup;
+			children = (
+				A8479B691EC9595400E0ACF4 /* AppDelegate.h */,
+				A8479B6A1EC9595400E0ACF4 /* AppDelegate.m */,
+				A8479B6C1EC9595400E0ACF4 /* ViewController.h */,
+				A8479B6D1EC9595400E0ACF4 /* ViewController.m */,
+				A8479B6F1EC9595400E0ACF4 /* Main.storyboard */,
+				A8479B721EC9595400E0ACF4 /* Assets.xcassets */,
+				A8479B741EC9595400E0ACF4 /* LaunchScreen.storyboard */,
+				A8479B771EC9595400E0ACF4 /* Info.plist */,
+				A8479B661EC9595400E0ACF4 /* Supporting Files */,
+			);
+			path = animalShop;
+			sourceTree = "<group>";
+		};
+		A8479B661EC9595400E0ACF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8479B671EC9595400E0ACF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8479B7F1EC9595500E0ACF4 /* animalShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8479B801EC9595500E0ACF4 /* animalShopTests.m */,
+				A8479B821EC9595500E0ACF4 /* Info.plist */,
+			);
+			path = animalShopTests;
+			sourceTree = "<group>";
+		};
+		A8479B8A1EC9595500E0ACF4 /* animalShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8479B8B1EC9595500E0ACF4 /* animalShopUITests.m */,
+				A8479B8D1EC9595500E0ACF4 /* Info.plist */,
+			);
+			path = animalShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8479B621EC9595300E0ACF4 /* animalShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8479B901EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShop" */;
+			buildPhases = (
+				A8479B5F1EC9595300E0ACF4 /* Sources */,
+				A8479B601EC9595300E0ACF4 /* Frameworks */,
+				A8479B611EC9595300E0ACF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = animalShop;
+			productName = animalShop;
+			productReference = A8479B631EC9595400E0ACF4 /* animalShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8479B7B1EC9595500E0ACF4 /* animalShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8479B931EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShopTests" */;
+			buildPhases = (
+				A8479B781EC9595500E0ACF4 /* Sources */,
+				A8479B791EC9595500E0ACF4 /* Frameworks */,
+				A8479B7A1EC9595500E0ACF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8479B7E1EC9595500E0ACF4 /* PBXTargetDependency */,
+			);
+			name = animalShopTests;
+			productName = animalShopTests;
+			productReference = A8479B7C1EC9595500E0ACF4 /* animalShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8479B861EC9595500E0ACF4 /* animalShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8479B961EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShopUITests" */;
+			buildPhases = (
+				A8479B831EC9595500E0ACF4 /* Sources */,
+				A8479B841EC9595500E0ACF4 /* Frameworks */,
+				A8479B851EC9595500E0ACF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8479B891EC9595500E0ACF4 /* PBXTargetDependency */,
+			);
+			name = animalShopUITests;
+			productName = animalShopUITests;
+			productReference = A8479B871EC9595500E0ACF4 /* animalShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8479B5B1EC9595300E0ACF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JOY;
+				TargetAttributes = {
+					A8479B621EC9595300E0ACF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQG7L8JAY2;
+						ProvisioningStyle = Automatic;
+					};
+					A8479B7B1EC9595500E0ACF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQG7L8JAY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8479B621EC9595300E0ACF4;
+					};
+					A8479B861EC9595500E0ACF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQG7L8JAY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8479B621EC9595300E0ACF4;
+					};
+				};
+			};
+			buildConfigurationList = A8479B5E1EC9595300E0ACF4 /* Build configuration list for PBXProject "animalShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8479B5A1EC9595300E0ACF4;
+			productRefGroup = A8479B641EC9595400E0ACF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8479B621EC9595300E0ACF4 /* animalShop */,
+				A8479B7B1EC9595500E0ACF4 /* animalShopTests */,
+				A8479B861EC9595500E0ACF4 /* animalShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8479B611EC9595300E0ACF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8479B761EC9595400E0ACF4 /* LaunchScreen.storyboard in Resources */,
+				A8479B731EC9595400E0ACF4 /* Assets.xcassets in Resources */,
+				A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8479B7A1EC9595500E0ACF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8479B851EC9595500E0ACF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8479B5F1EC9595300E0ACF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8479B6E1EC9595400E0ACF4 /* ViewController.m in Sources */,
+				A8479B6B1EC9595400E0ACF4 /* AppDelegate.m in Sources */,
+				A8479B681EC9595400E0ACF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8479B781EC9595500E0ACF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8479B811EC9595500E0ACF4 /* animalShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8479B831EC9595500E0ACF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8479B8C1EC9595500E0ACF4 /* animalShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8479B7E1EC9595500E0ACF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8479B621EC9595300E0ACF4 /* animalShop */;
+			targetProxy = A8479B7D1EC9595500E0ACF4 /* PBXContainerItemProxy */;
+		};
+		A8479B891EC9595500E0ACF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8479B621EC9595300E0ACF4 /* animalShop */;
+			targetProxy = A8479B881EC9595500E0ACF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8479B6F1EC9595400E0ACF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8479B701EC9595400E0ACF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8479B741EC9595400E0ACF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8479B751EC9595400E0ACF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8479B8E1EC9595500E0ACF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8479B8F1EC9595500E0ACF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8479B911EC9595500E0ACF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQG7L8JAY2;
+				INFOPLIST_FILE = animalShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8479B921EC9595500E0ACF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQG7L8JAY2;
+				INFOPLIST_FILE = animalShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8479B941EC9595500E0ACF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AQG7L8JAY2;
+				INFOPLIST_FILE = animalShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animalShop.app/animalShop";
+			};
+			name = Debug;
+		};
+		A8479B951EC9595500E0ACF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AQG7L8JAY2;
+				INFOPLIST_FILE = animalShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animalShop.app/animalShop";
+			};
+			name = Release;
+		};
+		A8479B971EC9595500E0ACF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AQG7L8JAY2;
+				INFOPLIST_FILE = animalShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = animalShop;
+			};
+			name = Debug;
+		};
+		A8479B981EC9595500E0ACF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AQG7L8JAY2;
+				INFOPLIST_FILE = animalShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = animalShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8479B5E1EC9595300E0ACF4 /* Build configuration list for PBXProject "animalShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8479B8E1EC9595500E0ACF4 /* Debug */,
+				A8479B8F1EC9595500E0ACF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8479B901EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8479B911EC9595500E0ACF4 /* Debug */,
+				A8479B921EC9595500E0ACF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8479B931EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8479B941EC9595500E0ACF4 /* Debug */,
+				A8479B951EC9595500E0ACF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8479B961EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8479B971EC9595500E0ACF4 /* Debug */,
+				A8479B981EC9595500E0ACF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8479B5B1EC9595300E0ACF4 /* Project object */;
+}
