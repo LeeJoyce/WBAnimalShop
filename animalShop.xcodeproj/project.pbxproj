@@ -18,7 +18,6 @@
 		A8479BA51EC95BA700E0ACF4 /* WBMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BA11EC95BA700E0ACF4 /* WBMainVC.m */; };
 		A8479BA81EC95C8F00E0ACF4 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BA71EC95C8F00E0ACF4 /* WBTabBar.m */; };
 		A8479BAD1EC97D7400E0ACF4 /* WBCircleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BAC1EC97D7400E0ACF4 /* WBCircleVC.m */; };
-		A8479BB01EC97D8C00E0ACF4 /* WBNoticeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BAF1EC97D8C00E0ACF4 /* WBNoticeVC.m */; };
 		A8479BB31EC97DA300E0ACF4 /* WBMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BB21EC97DA300E0ACF4 /* WBMineVC.m */; };
 		A8479BB61EC9843400E0ACF4 /* WBNavC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BB51EC9843400E0ACF4 /* WBNavC.m */; };
 		A8479BBC1EC987FE00E0ACF4 /* PussCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BB91EC987FE00E0ACF4 /* PussCollectionViewCell.m */; };
@@ -30,6 +29,12 @@
 		A8AC4B8D1ECB189F00DD5FBF /* WBEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AC4B8B1ECB189F00DD5FBF /* WBEditCell.m */; };
 		A8AC4B8E1ECB189F00DD5FBF /* WBEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AC4B8C1ECB189F00DD5FBF /* WBEditCell.xib */; };
 		A8AC4B941ECB26FC00DD5FBF /* WBLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AC4B931ECB26FC00DD5FBF /* WBLoginBtn.m */; };
+		DC8A0DA7520F71932833C5E8 /* Pods_animalShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E24F5D147AD7973B8459B3 /* Pods_animalShop.framework */; };
+		E94F769C1ECB47040086FBAE /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F769A1ECB47040086FBAE /* NewsCell.m */; };
+		E94F769D1ECB47040086FBAE /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F769B1ECB47040086FBAE /* NewsCell.xib */; };
+		E94F76A31ECB471B0086FBAE /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F769F1ECB471B0086FBAE /* DetailController.m */; };
+		E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F76A01ECB471B0086FBAE /* DetailController.xib */; };
+		E94F76A51ECB471B0086FBAE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F76A21ECB471B0086FBAE /* NewsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30E24F5D147AD7973B8459B3 /* Pods_animalShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animalShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77560CB81CE30DE682335C7D /* Pods-animalShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animalShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animalShop/Pods-animalShop.debug.xcconfig"; sourceTree = "<group>"; };
 		A8479B631EC9595400E0ACF4 /* animalShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animalShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8479B701EC9595400E0ACF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8479B721EC9595400E0ACF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,8 +78,6 @@
 		A8479BAA1EC95F0000E0ACF4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A8479BAB1EC97D7400E0ACF4 /* WBCircleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCircleVC.h; sourceTree = "<group>"; };
 		A8479BAC1EC97D7400E0ACF4 /* WBCircleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCircleVC.m; sourceTree = "<group>"; };
-		A8479BAE1EC97D8C00E0ACF4 /* WBNoticeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNoticeVC.h; sourceTree = "<group>"; };
-		A8479BAF1EC97D8C00E0ACF4 /* WBNoticeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNoticeVC.m; sourceTree = "<group>"; };
 		A8479BB11EC97DA300E0ACF4 /* WBMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMineVC.h; sourceTree = "<group>"; };
 		A8479BB21EC97DA300E0ACF4 /* WBMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMineVC.m; sourceTree = "<group>"; };
 		A8479BB41EC9843400E0ACF4 /* WBNavC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavC.h; sourceTree = "<group>"; };
@@ -93,6 +98,15 @@
 		A8AC4B8C1ECB189F00DD5FBF /* WBEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBEditCell.xib; sourceTree = "<group>"; };
 		A8AC4B921ECB26FC00DD5FBF /* WBLoginBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBLoginBtn.h; sourceTree = "<group>"; };
 		A8AC4B931ECB26FC00DD5FBF /* WBLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBLoginBtn.m; sourceTree = "<group>"; };
+		BAEFD5E3DFE6A1E4481C6E41 /* Pods-animalShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animalShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-animalShop/Pods-animalShop.release.xcconfig"; sourceTree = "<group>"; };
+		E94F76991ECB47040086FBAE /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		E94F769A1ECB47040086FBAE /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		E94F769B1ECB47040086FBAE /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		E94F769E1ECB471B0086FBAE /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		E94F769F1ECB471B0086FBAE /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		E94F76A01ECB471B0086FBAE /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
+		E94F76A11ECB471B0086FBAE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		E94F76A21ECB471B0086FBAE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8A0DA7520F71932833C5E8 /* Pods_animalShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +135,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D76471A734D96D0B6E03DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E24F5D147AD7973B8459B3 /* Pods_animalShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F57D97FDC7B252B8AA7DFBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77560CB81CE30DE682335C7D /* Pods-animalShop.debug.xcconfig */,
+				BAEFD5E3DFE6A1E4481C6E41 /* Pods-animalShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8479B5A1EC9595300E0ACF4 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +159,8 @@
 				A8479B7F1EC9595500E0ACF4 /* animalShopTests */,
 				A8479B8A1EC9595500E0ACF4 /* animalShopUITests */,
 				A8479B641EC9595400E0ACF4 /* Products */,
+				5F57D97FDC7B252B8AA7DFBA /* Pods */,
+				2D76471A734D96D0B6E03DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,9 +240,9 @@
 		A8479B9F1EC95BA700E0ACF4 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				A8479BC11EC999FC00E0ACF4 /* main */,
-				A8479BC21EC99A0900E0ACF4 /* circle */,
-				A8479BC31EC99A2000E0ACF4 /* notice */,
+				A8479BC11EC999FC00E0ACF4 /* Home */,
+				A8479BC21EC99A0900E0ACF4 /* Circle */,
+				A8479BC31EC99A2000E0ACF4 /* News */,
 				A8479BC41EC99A3F00E0ACF4 /* mine */,
 			);
 			path = classes;
@@ -237,7 +271,7 @@
 			name = banner;
 			sourceTree = "<group>";
 		};
-		A8479BC11EC999FC00E0ACF4 /* main */ = {
+		A8479BC11EC999FC00E0ACF4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				A8479BA01EC95BA700E0ACF4 /* WBMainVC.h */,
@@ -245,25 +279,25 @@
 				A8479BCD1EC99E3300E0ACF4 /* WBAnimalJump.h */,
 				A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */,
 			);
-			name = main;
+			name = Home;
 			sourceTree = "<group>";
 		};
-		A8479BC21EC99A0900E0ACF4 /* circle */ = {
+		A8479BC21EC99A0900E0ACF4 /* Circle */ = {
 			isa = PBXGroup;
 			children = (
 				A8479BAB1EC97D7400E0ACF4 /* WBCircleVC.h */,
 				A8479BAC1EC97D7400E0ACF4 /* WBCircleVC.m */,
 			);
-			name = circle;
+			name = Circle;
 			sourceTree = "<group>";
 		};
-		A8479BC31EC99A2000E0ACF4 /* notice */ = {
+		A8479BC31EC99A2000E0ACF4 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				A8479BAE1EC97D8C00E0ACF4 /* WBNoticeVC.h */,
-				A8479BAF1EC97D8C00E0ACF4 /* WBNoticeVC.m */,
+				E94F76961ECB46390086FBAE /* Controller */,
+				E94F76981ECB46470086FBAE /* View */,
 			);
-			name = notice;
+			name = News;
 			sourceTree = "<group>";
 		};
 		A8479BC41EC99A3F00E0ACF4 /* mine */ = {
@@ -290,6 +324,28 @@
 			name = user;
 			sourceTree = "<group>";
 		};
+		E94F76961ECB46390086FBAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94F76A11ECB471B0086FBAE /* NewsViewController.h */,
+				E94F76A21ECB471B0086FBAE /* NewsViewController.m */,
+				E94F769E1ECB471B0086FBAE /* DetailController.h */,
+				E94F769F1ECB471B0086FBAE /* DetailController.m */,
+				E94F76A01ECB471B0086FBAE /* DetailController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E94F76981ECB46470086FBAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E94F76991ECB47040086FBAE /* NewsCell.h */,
+				E94F769A1ECB47040086FBAE /* NewsCell.m */,
+				E94F769B1ECB47040086FBAE /* NewsCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -297,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8479B901EC9595500E0ACF4 /* Build configuration list for PBXNativeTarget "animalShop" */;
 			buildPhases = (
+				B49BC05BED5B906D35C62E96 /* [CP] Check Pods Manifest.lock */,
 				A8479B5F1EC9595300E0ACF4 /* Sources */,
 				A8479B601EC9595300E0ACF4 /* Frameworks */,
 				A8479B611EC9595300E0ACF4 /* Resources */,
+				B4271C66AF8FC253C0B57D10 /* [CP] Embed Pods Frameworks */,
+				7C0AE414DE45F64F976EE3CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,7 +460,9 @@
 			files = (
 				A8479BA21EC95BA700E0ACF4 /* Info.plist in Resources */,
 				A8479B761EC9595400E0ACF4 /* LaunchScreen.storyboard in Resources */,
+				E94F769D1ECB47040086FBAE /* NewsCell.xib in Resources */,
 				A8479B731EC9595400E0ACF4 /* Assets.xcassets in Resources */,
+				E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */,
 				A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */,
 				A8AC4B8E1ECB189F00DD5FBF /* WBEditCell.xib in Resources */,
 				A8AC4B821ECAF6A500DD5FBF /* WBMineVC.xib in Resources */,
@@ -424,6 +485,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C0AE414DE45F64F976EE3CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animalShop/Pods-animalShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4271C66AF8FC253C0B57D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animalShop/Pods-animalShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49BC05BED5B906D35C62E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8479B5F1EC9595300E0ACF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -431,17 +540,19 @@
 			files = (
 				A8AC4B8D1ECB189F00DD5FBF /* WBEditCell.m in Sources */,
 				A8479BB61EC9843400E0ACF4 /* WBNavC.m in Sources */,
+				E94F769C1ECB47040086FBAE /* NewsCell.m in Sources */,
 				A8479BBC1EC987FE00E0ACF4 /* PussCollectionViewCell.m in Sources */,
 				A8479BA51EC95BA700E0ACF4 /* WBMainVC.m in Sources */,
-				A8479BB01EC97D8C00E0ACF4 /* WBNoticeVC.m in Sources */,
 				A8479BAD1EC97D7400E0ACF4 /* WBCircleVC.m in Sources */,
 				A8AC4B941ECB26FC00DD5FBF /* WBLoginBtn.m in Sources */,
 				A8479BC01EC992E300E0ACF4 /* UIView+ZY.m in Sources */,
 				A8AC4B861ECAFD1F00DD5FBF /* userTokenTool.m in Sources */,
+				E94F76A31ECB471B0086FBAE /* DetailController.m in Sources */,
 				A8479BBD1EC987FE00E0ACF4 /* PussBannerView.m in Sources */,
 				A8479BA41EC95BA700E0ACF4 /* AppDelegate.m in Sources */,
 				A8479BCF1EC99E3400E0ACF4 /* WBAnimalJump.m in Sources */,
 				A8479BA81EC95C8F00E0ACF4 /* WBTabBar.m in Sources */,
+				E94F76A51ECB471B0086FBAE /* NewsViewController.m in Sources */,
 				A8479BA31EC95BA700E0ACF4 /* main.m in Sources */,
 				A8479BB31EC97DA300E0ACF4 /* WBMineVC.m in Sources */,
 			);
@@ -588,11 +699,13 @@
 		};
 		A8479B911EC9595500E0ACF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77560CB81CE30DE682335C7D /* Pods-animalShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AQG7L8JAY2;
 				GCC_PREFIX_HEADER = animalShop/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/animalShop/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -601,11 +714,13 @@
 		};
 		A8479B921EC9595500E0ACF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEFD5E3DFE6A1E4481C6E41 /* Pods-animalShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AQG7L8JAY2;
 				GCC_PREFIX_HEADER = animalShop/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/animalShop/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";

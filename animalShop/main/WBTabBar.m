@@ -8,10 +8,10 @@
 
 #import "WBTabBar.h"
 #import "WBMineVC.h"
-#import "WBNoticeVC.h"
 #import "WBCircleVC.h"
 #import "WBMainVC.h"
 #import "WBNavC.h"
+#import "NewsViewController.h"
 
 @implementation WBTabBar
 
@@ -26,7 +26,7 @@
 - (void)addChildNav {
     [self setUpOneChildVC:[[WBNavC alloc] initWithRootViewController:[[WBMainVC alloc] init]] title:@"主页" imageName:@"main" selImageName:@"main_sel"];
     [self setUpOneChildVC:[[WBNavC alloc] initWithRootViewController:[[WBCircleVC alloc] init]] title:@"圈子" imageName:@"circle" selImageName:@"circle_sel"];
-    [self setUpOneChildVC:[[WBNavC alloc] initWithRootViewController:[[WBNoticeVC alloc] init]] title:@"消息" imageName:@"notice" selImageName:@"notice_sel"];
+    [self setUpOneChildVC:[[WBNavC alloc] initWithRootViewController:[[NewsViewController alloc] init]] title:@"消息" imageName:@"notice" selImageName:@"notice_sel"];
     [self setUpOneChildVC:[[WBNavC alloc] initWithRootViewController:[[WBMineVC alloc] init]] title:@"我的" imageName:@"mine" selImageName:@"mine_sel"];
 }
 

@@ -41,6 +41,8 @@
 
 #import "UIView+ZY.h"
 #import "userTokenTool.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
 
 #endif
 #endif

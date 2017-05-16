@@ -51,11 +51,12 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-    NSLog(@"sdfa");
+    [_search resignFirstResponder];
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
-    [self resignFirstResponder];
+//    [self resignFirstResponder];   //这里写错了
+    [self.view endEditing:YES];
 }
 
 - (UISearchBar *)search {
@@ -64,6 +65,7 @@
         _search.delegate = self;
         _search.showsCancelButton = true;
         [_search setPlaceholder:@"请输入想搜索的宠物类别"];
+        _search.delegate = self;
     }
     return _search;
 }
