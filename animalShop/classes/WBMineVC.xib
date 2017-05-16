@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WBMineVC">
+            <connections>
+                <outlet property="regisBtn" destination="Qor-E1-kDS" id="uV3-Ft-ase"/>
+                <outlet property="regisOrLogin" destination="Bil-cF-UVg" id="UuM-J5-O31"/>
+                <outlet property="userIcon" destination="t4Z-DA-1LI" id="f41-MP-jKq"/>
+                <outlet property="view" destination="CFX-SH-9w7" id="S7y-kH-FAI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="CFX-SH-9w7">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4Z-DA-1LI">
+                    <rect key="frame" x="138" y="100" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="t4Z-DA-1LI" secondAttribute="height" multiplier="1:1" id="Per-Ws-5DH"/>
+                    </constraints>
+                    <state key="normal" image="login"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bil-cF-UVg" customClass="WBLoginBtn">
+                    <rect key="frame" x="37" y="569.5" width="300" height="33.5"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qor-E1-kDS" customClass="WBLoginBtn">
+                    <rect key="frame" x="37" y="526" width="300" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="注册"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bil-cF-UVg" firstAttribute="height" secondItem="CFX-SH-9w7" secondAttribute="height" multiplier="0.05" id="2Kh-mn-o5V"/>
+                <constraint firstItem="Qor-E1-kDS" firstAttribute="centerX" secondItem="Bil-cF-UVg" secondAttribute="centerX" id="GCv-hg-7wv"/>
+                <constraint firstItem="Qor-E1-kDS" firstAttribute="height" secondItem="Bil-cF-UVg" secondAttribute="height" id="HA4-tz-P4b"/>
+                <constraint firstItem="Bil-cF-UVg" firstAttribute="top" secondItem="Qor-E1-kDS" secondAttribute="bottom" constant="10" id="O06-KX-VTQ"/>
+                <constraint firstAttribute="bottom" secondItem="Bil-cF-UVg" secondAttribute="bottom" constant="64" id="PFl-Xg-aaW"/>
+                <constraint firstItem="Qor-E1-kDS" firstAttribute="width" secondItem="Bil-cF-UVg" secondAttribute="width" id="Tnz-So-q7t"/>
+                <constraint firstItem="t4Z-DA-1LI" firstAttribute="centerX" secondItem="CFX-SH-9w7" secondAttribute="centerX" id="gIb-4c-ONy"/>
+                <constraint firstItem="t4Z-DA-1LI" firstAttribute="top" secondItem="CFX-SH-9w7" secondAttribute="top" constant="100" id="jYj-5G-hRG"/>
+                <constraint firstItem="t4Z-DA-1LI" firstAttribute="height" secondItem="CFX-SH-9w7" secondAttribute="height" multiplier="0.15" id="p6b-TY-Ni9"/>
+                <constraint firstItem="Bil-cF-UVg" firstAttribute="width" secondItem="CFX-SH-9w7" secondAttribute="width" multiplier="0.8" id="uhQ-dY-ece"/>
+                <constraint firstItem="Bil-cF-UVg" firstAttribute="centerX" secondItem="CFX-SH-9w7" secondAttribute="centerX" id="yfe-JR-K0u"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="-187.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login" width="128" height="128"/>
+    </resources>
+</document>
