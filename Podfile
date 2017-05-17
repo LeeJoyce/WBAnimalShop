@@ -8,6 +8,8 @@ target 'animalShop' do
   
 	pod 'SVProgressHUD'
     pod 'MJRefresh'
+    pod 'MJExtension'
+    pod 'SDWebImage'
 
 
 end

@@ -43,6 +43,8 @@
 		E94F76A31ECB471B0086FBAE /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F769F1ECB471B0086FBAE /* DetailController.m */; };
 		E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F76A01ECB471B0086FBAE /* DetailController.xib */; };
 		E94F76A51ECB471B0086FBAE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F76A21ECB471B0086FBAE /* NewsViewController.m */; };
+		E9ED9D321ECC9E3400F5481B /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D311ECC9E3400F5481B /* json.txt */; };
+		E9ED9D351ECCA01C00F5481B /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D341ECCA01C00F5481B /* DogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,9 @@
 		E94F76A01ECB471B0086FBAE /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
 		E94F76A11ECB471B0086FBAE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		E94F76A21ECB471B0086FBAE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		E9ED9D311ECC9E3400F5481B /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		E9ED9D331ECCA01C00F5481B /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
+		E9ED9D341ECCA01C00F5481B /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +242,7 @@
 		A8479B991EC95BA700E0ACF4 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				E9ED9D311ECC9E3400F5481B /* json.txt */,
 				A8479B9A1EC95BA700E0ACF4 /* Info.plist */,
 				A8479B9B1EC95BA700E0ACF4 /* main.m */,
 			);
@@ -332,6 +338,8 @@
 			children = (
 				A8479BA01EC95BA700E0ACF4 /* WBMainVC.h */,
 				A8479BA11EC95BA700E0ACF4 /* WBMainVC.m */,
+				E9ED9D331ECCA01C00F5481B /* DogViewController.h */,
+				E9ED9D341ECCA01C00F5481B /* DogViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -546,6 +554,7 @@
 				A88F17C01ECBF7FE00F93BDA /* LoginViewC.xib in Resources */,
 				A88F17C61ECC508800F93BDA /* WBCircleHeaderView.xib in Resources */,
 				A8479B731EC9595400E0ACF4 /* Assets.xcassets in Resources */,
+				E9ED9D321ECC9E3400F5481B /* json.txt in Resources */,
 				E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */,
 				A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */,
 				A8AC4B8E1ECB189F00DD5FBF /* WBEditCell.xib in Resources */,
@@ -625,6 +634,7 @@
 				A8AC4B8D1ECB189F00DD5FBF /* WBEditCell.m in Sources */,
 				A8479BB61EC9843400E0ACF4 /* WBNavC.m in Sources */,
 				E94F769C1ECB47040086FBAE /* NewsCell.m in Sources */,
+				E9ED9D351ECCA01C00F5481B /* DogViewController.m in Sources */,
 				A8479BBC1EC987FE00E0ACF4 /* PussCollectionViewCell.m in Sources */,
 				A8479BA51EC95BA700E0ACF4 /* WBMainVC.m in Sources */,
 				A8479BAD1EC97D7400E0ACF4 /* WBCircleVC.m in Sources */,

@@ -9,6 +9,7 @@
 #import "WBMainVC.h"
 #import "PussBannerView.h"
 #import "WBAnimalJump.h"
+#import "DogViewController.h"
 
 @interface WBMainVC ()<UISearchBarDelegate>
 
@@ -46,8 +47,44 @@
         animalBtn.tag = i;
         [animalBtn setBtnWihthImageArr:self.imgArr kindArr:self.kindArr];
         [self.scroll addSubview:animalBtn];
+        [animalBtn addTarget:self action:@selector(animalBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     self.scroll.contentSize = CGSizeMake(self.view.zy_width, Margin *(viewCount / columnsCount + 1) + (viewCount / columnsCount) * BtnH + (viewCount % columnsCount) * (Margin + BtnH));
+}
+
+#pragma mark - selector
+- (void)animalBtnClick:(WBAnimalJump *)btn
+{
+    switch (btn.tag) {
+        case 0:{
+            DogViewController *dog = [[DogViewController alloc] init];
+            [self.navigationController pushViewController:dog animated:YES];
+        }
+            break;
+            
+        case 1:
+            NSLog(@"猫");
+            break;
+            
+        case 2:
+            NSLog(@"鼠");
+            break;
+            
+        case 3:
+            NSLog(@"鸟");
+            break;
+            
+        case 4:
+            NSLog(@"水");
+            break;
+            
+        case 5:
+            NSLog(@"兔子");
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {

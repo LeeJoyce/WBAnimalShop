@@ -4,12 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-animalShop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,12 +32,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7DB26342A8790AF4D1DBC78FC878F0A3</key>
+		<key>172A156CBBF5D0CC91B62F1229736B0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8794314FC0DDF66C79EBD0C54D68044D</key>
+		<key>2EE6116B0563A039B98DCFE677942E73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3EAD88212C66F7CEE2B9A778F9046C5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF3A97F0B0D6334D2168AE3DD896BC9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
