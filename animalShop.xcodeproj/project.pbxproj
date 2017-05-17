@@ -24,6 +24,14 @@
 		A8479BBD1EC987FE00E0ACF4 /* PussBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BBB1EC987FE00E0ACF4 /* PussBannerView.m */; };
 		A8479BC01EC992E300E0ACF4 /* UIView+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BBF1EC992E300E0ACF4 /* UIView+ZY.m */; };
 		A8479BCF1EC99E3400E0ACF4 /* WBAnimalJump.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */; };
+		A88F17BD1ECBF7FE00F93BDA /* registeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F17B81ECBF7FE00F93BDA /* registeVC.m */; };
+		A88F17BE1ECBF7FE00F93BDA /* registeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88F17B91ECBF7FE00F93BDA /* registeVC.xib */; };
+		A88F17BF1ECBF7FE00F93BDA /* LoginViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F17BB1ECBF7FE00F93BDA /* LoginViewC.m */; };
+		A88F17C01ECBF7FE00F93BDA /* LoginViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88F17BC1ECBF7FE00F93BDA /* LoginViewC.xib */; };
+		A88F17C41ECC507C00F93BDA /* WBCircleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F17C31ECC507C00F93BDA /* WBCircleHeaderView.m */; };
+		A88F17C61ECC508800F93BDA /* WBCircleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88F17C51ECC508800F93BDA /* WBCircleHeaderView.xib */; };
+		A88F17CA1ECC6C7700F93BDA /* WBCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F17C81ECC6C7700F93BDA /* WBCircleCell.m */; };
+		A88F17CB1ECC6C7700F93BDA /* WBCircleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88F17C91ECC6C7700F93BDA /* WBCircleCell.xib */; };
 		A8AC4B821ECAF6A500DD5FBF /* WBMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AC4B811ECAF6A500DD5FBF /* WBMineVC.xib */; };
 		A8AC4B861ECAFD1F00DD5FBF /* userTokenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AC4B851ECAFD1F00DD5FBF /* userTokenTool.m */; };
 		A8AC4B8D1ECB189F00DD5FBF /* WBEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AC4B8B1ECB189F00DD5FBF /* WBEditCell.m */; };
@@ -90,6 +98,18 @@
 		A8479BBF1EC992E300E0ACF4 /* UIView+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZY.m"; sourceTree = "<group>"; };
 		A8479BCD1EC99E3300E0ACF4 /* WBAnimalJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAnimalJump.h; sourceTree = "<group>"; };
 		A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAnimalJump.m; sourceTree = "<group>"; };
+		A88F17B71ECBF7FE00F93BDA /* registeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registeVC.h; sourceTree = "<group>"; };
+		A88F17B81ECBF7FE00F93BDA /* registeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registeVC.m; sourceTree = "<group>"; };
+		A88F17B91ECBF7FE00F93BDA /* registeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registeVC.xib; sourceTree = "<group>"; };
+		A88F17BA1ECBF7FE00F93BDA /* LoginViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewC.h; sourceTree = "<group>"; };
+		A88F17BB1ECBF7FE00F93BDA /* LoginViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewC.m; sourceTree = "<group>"; };
+		A88F17BC1ECBF7FE00F93BDA /* LoginViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewC.xib; sourceTree = "<group>"; };
+		A88F17C21ECC507C00F93BDA /* WBCircleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCircleHeaderView.h; sourceTree = "<group>"; };
+		A88F17C31ECC507C00F93BDA /* WBCircleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCircleHeaderView.m; sourceTree = "<group>"; };
+		A88F17C51ECC508800F93BDA /* WBCircleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBCircleHeaderView.xib; sourceTree = "<group>"; };
+		A88F17C71ECC6C7700F93BDA /* WBCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCircleCell.h; sourceTree = "<group>"; };
+		A88F17C81ECC6C7700F93BDA /* WBCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCircleCell.m; sourceTree = "<group>"; };
+		A88F17C91ECC6C7700F93BDA /* WBCircleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBCircleCell.xib; sourceTree = "<group>"; };
 		A8AC4B811ECAF6A500DD5FBF /* WBMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBMineVC.xib; sourceTree = "<group>"; };
 		A8AC4B841ECAFD1F00DD5FBF /* userTokenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userTokenTool.h; sourceTree = "<group>"; };
 		A8AC4B851ECAFD1F00DD5FBF /* userTokenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userTokenTool.m; sourceTree = "<group>"; };
@@ -274,10 +294,8 @@
 		A8479BC11EC999FC00E0ACF4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A8479BA01EC95BA700E0ACF4 /* WBMainVC.h */,
-				A8479BA11EC95BA700E0ACF4 /* WBMainVC.m */,
-				A8479BCD1EC99E3300E0ACF4 /* WBAnimalJump.h */,
-				A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */,
+				A88F17B21ECBF3EE00F93BDA /* Controller */,
+				A88F17B31ECBF41E00F93BDA /* View */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -285,8 +303,8 @@
 		A8479BC21EC99A0900E0ACF4 /* Circle */ = {
 			isa = PBXGroup;
 			children = (
-				A8479BAB1EC97D7400E0ACF4 /* WBCircleVC.h */,
-				A8479BAC1EC97D7400E0ACF4 /* WBCircleVC.m */,
+				A88F17C11ECC504C00F93BDA /* View */,
+				A88F17B41ECBF44900F93BDA /* Controller */,
 			);
 			name = Circle;
 			sourceTree = "<group>";
@@ -303,16 +321,78 @@
 		A8479BC41EC99A3F00E0ACF4 /* mine */ = {
 			isa = PBXGroup;
 			children = (
-				A8AC4B921ECB26FC00DD5FBF /* WBLoginBtn.h */,
-				A8AC4B931ECB26FC00DD5FBF /* WBLoginBtn.m */,
+				A88F17B61ECBF47500F93BDA /* View */,
+				A88F17B51ECBF46100F93BDA /* Controller */,
+			);
+			name = mine;
+			sourceTree = "<group>";
+		};
+		A88F17B21ECBF3EE00F93BDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8479BA01EC95BA700E0ACF4 /* WBMainVC.h */,
+				A8479BA11EC95BA700E0ACF4 /* WBMainVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A88F17B31ECBF41E00F93BDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8479BCD1EC99E3300E0ACF4 /* WBAnimalJump.h */,
+				A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A88F17B41ECBF44900F93BDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8479BAB1EC97D7400E0ACF4 /* WBCircleVC.h */,
+				A8479BAC1EC97D7400E0ACF4 /* WBCircleVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A88F17B51ECBF46100F93BDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A88F17B71ECBF7FE00F93BDA /* registeVC.h */,
+				A88F17B81ECBF7FE00F93BDA /* registeVC.m */,
+				A88F17B91ECBF7FE00F93BDA /* registeVC.xib */,
+				A88F17BA1ECBF7FE00F93BDA /* LoginViewC.h */,
+				A88F17BB1ECBF7FE00F93BDA /* LoginViewC.m */,
+				A88F17BC1ECBF7FE00F93BDA /* LoginViewC.xib */,
 				A8479BB11EC97DA300E0ACF4 /* WBMineVC.h */,
 				A8479BB21EC97DA300E0ACF4 /* WBMineVC.m */,
 				A8AC4B811ECAF6A500DD5FBF /* WBMineVC.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A88F17B61ECBF47500F93BDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8AC4B921ECB26FC00DD5FBF /* WBLoginBtn.h */,
+				A8AC4B931ECB26FC00DD5FBF /* WBLoginBtn.m */,
 				A8AC4B8A1ECB189F00DD5FBF /* WBEditCell.h */,
 				A8AC4B8B1ECB189F00DD5FBF /* WBEditCell.m */,
 				A8AC4B8C1ECB189F00DD5FBF /* WBEditCell.xib */,
 			);
-			name = mine;
+			name = View;
+			sourceTree = "<group>";
+		};
+		A88F17C11ECC504C00F93BDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A88F17C21ECC507C00F93BDA /* WBCircleHeaderView.h */,
+				A88F17C71ECC6C7700F93BDA /* WBCircleCell.h */,
+				A88F17C81ECC6C7700F93BDA /* WBCircleCell.m */,
+				A88F17C91ECC6C7700F93BDA /* WBCircleCell.xib */,
+				A88F17C31ECC507C00F93BDA /* WBCircleHeaderView.m */,
+				A88F17C51ECC508800F93BDA /* WBCircleHeaderView.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		A8AC4B831ECAFD1200DD5FBF /* user */ = {
@@ -458,9 +538,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88F17CB1ECC6C7700F93BDA /* WBCircleCell.xib in Resources */,
 				A8479BA21EC95BA700E0ACF4 /* Info.plist in Resources */,
+				A88F17BE1ECBF7FE00F93BDA /* registeVC.xib in Resources */,
 				A8479B761EC9595400E0ACF4 /* LaunchScreen.storyboard in Resources */,
 				E94F769D1ECB47040086FBAE /* NewsCell.xib in Resources */,
+				A88F17C01ECBF7FE00F93BDA /* LoginViewC.xib in Resources */,
+				A88F17C61ECC508800F93BDA /* WBCircleHeaderView.xib in Resources */,
 				A8479B731EC9595400E0ACF4 /* Assets.xcassets in Resources */,
 				E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */,
 				A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */,
@@ -544,6 +628,7 @@
 				A8479BBC1EC987FE00E0ACF4 /* PussCollectionViewCell.m in Sources */,
 				A8479BA51EC95BA700E0ACF4 /* WBMainVC.m in Sources */,
 				A8479BAD1EC97D7400E0ACF4 /* WBCircleVC.m in Sources */,
+				A88F17BF1ECBF7FE00F93BDA /* LoginViewC.m in Sources */,
 				A8AC4B941ECB26FC00DD5FBF /* WBLoginBtn.m in Sources */,
 				A8479BC01EC992E300E0ACF4 /* UIView+ZY.m in Sources */,
 				A8AC4B861ECAFD1F00DD5FBF /* userTokenTool.m in Sources */,
@@ -552,9 +637,12 @@
 				A8479BA41EC95BA700E0ACF4 /* AppDelegate.m in Sources */,
 				A8479BCF1EC99E3400E0ACF4 /* WBAnimalJump.m in Sources */,
 				A8479BA81EC95C8F00E0ACF4 /* WBTabBar.m in Sources */,
+				A88F17BD1ECBF7FE00F93BDA /* registeVC.m in Sources */,
 				E94F76A51ECB471B0086FBAE /* NewsViewController.m in Sources */,
 				A8479BA31EC95BA700E0ACF4 /* main.m in Sources */,
+				A88F17C41ECC507C00F93BDA /* WBCircleHeaderView.m in Sources */,
 				A8479BB31EC97DA300E0ACF4 /* WBMineVC.m in Sources */,
+				A88F17CA1ECC6C7700F93BDA /* WBCircleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,7 +793,7 @@
 				DEVELOPMENT_TEAM = AQG7L8JAY2;
 				GCC_PREFIX_HEADER = animalShop/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/animalShop/other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -720,7 +808,7 @@
 				DEVELOPMENT_TEAM = AQG7L8JAY2;
 				GCC_PREFIX_HEADER = animalShop/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/animalShop/other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuangwu.animalShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -11,6 +11,10 @@
 @interface userTokenTool : NSObject
 + (BOOL)isLogin;
 + (NSString *)getToken;
++ (NSString *)getAccont;
++ (NSString *)getSecret;
++ (NSData *)getIcon;
+
 +(void)removeUserKey;
 
 @end

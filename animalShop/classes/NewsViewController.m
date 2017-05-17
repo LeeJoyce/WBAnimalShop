@@ -35,8 +35,7 @@
 
 - (void)setupTableView
 {
-    self.tableView.rowHeight = 64 + 5;
-    
+    self.tableView.rowHeight = self.view.zy_higth * 0.1;
     [self.tableView registerNib:[UINib nibWithNibName:@"NewsCell" bundle:nil] forCellReuseIdentifier:@"newCell"];
     
     self.tableView.tableFooterView = [[UIView alloc] init];

@@ -9,6 +9,8 @@
 #import "WBMineVC.h"
 #import "WBEditCell.h"
 #import "WBLoginBtn.h"
+#import "LoginViewC.h"
+#import "registeVC.h"
 
 @interface WBMineVC ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet  WBLoginBtn *regisOrLogin;
@@ -25,22 +27,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"我的";
-    [self setUpViewsWithIsLogined];
     [self setUpIcon];
-    
-   
+    [self.view addSubview:self.table];
+    [self setBtn];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [self setUpViewsWithIsLogined];
+}
+
+- (void)setBtn {
+    [self.regisBtn addTarget:self action:@selector(regisClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.regisOrLogin addTarget:self action:@selector(loginClcik) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)setUpViewsWithIsLogined {
     if ([userTokenTool isLogin] == YES) {
+        [self.userIcon setImage:[UIImage imageWithData:[userTokenTool getIcon]] forState:UIControlStateNormal];
         self.regisBtn.hidden = YES;
-        [self.regisBtn setTitle:@"注销" forState:UIControlStateNormal];
-        [self.view addSubview:self.table];
+        [self.regisOrLogin setTitle:@"注销" forState:UIControlStateNormal];
         self.userIcon.enabled = YES;
+        [self.view addSubview:self.table];
     }else {
         self.regisBtn.hidden = NO;
+        [self.userIcon setImage:[UIImage imageNamed:@"login"] forState:UIControlStateNormal];
         [self.regisOrLogin setTitle:@"登录" forState:UIControlStateNormal];
         self.userIcon.enabled = NO;
+        [self.table removeFromSuperview];
     }
 }
 
@@ -50,8 +63,18 @@
     self.userIcon.layer.borderWidth = 1;
     self.userIcon.layer.borderColor = ZYGray(120).CGColor;
     self.userIcon.layer.masksToBounds = YES;
-    
     [self.userIcon addTarget:self action:@selector(iconClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)regisClick {
+    [self.navigationController pushViewController:[[registeVC alloc] init] animated:YES];
+}
+
+- (void)loginClcik {
+    if ([userTokenTool isLogin]) {
+        [userTokenTool removeUserKey];
+        [self setUpViewsWithIsLogined];
+    }else [self.navigationController pushViewController:[[LoginViewC alloc] init] animated:YES];
 }
 
 - (void)iconClick {
@@ -61,17 +84,19 @@
 
 #pragma mark - UITableViewDelegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return self.userInfoArr.count;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return self.userInfoArr[section];
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.userInfoArr.count;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     WBEditCell *cell = [tableView dequeueReusableCellWithIdentifier:@"edit"];
-    [cell setCellWithIndex:indexPath.row InfoArr:self.userInfoArr];
     return cell;
 }
 
@@ -84,7 +109,7 @@
     if (UIImagePNGRepresentation(photo) == nil)
     {
         ImageData = UIImageJPEGRepresentation(photo, 1.0);
-    }
+    }else
         ImageData = UIImagePNGRepresentation(photo);
     
     [self.userIcon setImage:photo forState:UIControlStateNormal];
@@ -129,12 +154,12 @@
 #pragma mark - lazy
 - (UITableView *)table {
     if (_table == nil) {
-        _table = [[UITableView alloc] initWithFrame:CGRectMake(0,CGRectGetMaxY(self.userIcon.frame) + 20, self.view.zy_width, self.view.zy_higth - CGRectGetMaxY(self.userIcon.frame) - 20 - 44)];
+        _table = [[UITableView alloc] initWithFrame:CGRectMake(0,CGRectGetMaxY(self.userIcon.frame) + 20, self.view.zy_width, self.view.zy_higth - CGRectGetMaxY(self.userIcon.frame) - 20 - self.regisOrLogin.zy_higth - 20 - 44)];
         _table.delegate = self;
         _table.dataSource = self;
         [_table registerNib:[UINib nibWithNibName:NSStringFromClass([WBEditCell class]) bundle:nil] forCellReuseIdentifier:@"edit"];
         _table.tableFooterView = [[UIView alloc] init];
-        _table.rowHeight = self.view.zy_higth * 0.12;
+        _table.rowHeight = self.view.zy_higth * 0.08;
         _table.separatorStyle = UITableViewCellSeparatorStyleNone;
         _table.scrollEnabled = NO;
     }
@@ -143,7 +168,7 @@
 
 - (NSMutableArray *)userInfoArr {
     if (_userInfoArr == nil) {
-        _userInfoArr = [NSMutableArray arrayWithObjects:@"昵称：",@"我的宠物：", nil];
+        _userInfoArr = [NSMutableArray arrayWithObjects:@"昵称",@"我的宠物", nil];
     }
     return _userInfoArr;
 }

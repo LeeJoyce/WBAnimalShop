@@ -24,19 +24,19 @@
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if (self.childViewControllers.count > 0) {
-//        UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-//        [backBtn setImage:[UIImage imageNamed:@"back_icon"] forState:UIControlStateNormal];
-//        [backBtn sizeToFit];
-//        [backBtn addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
-//        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+        UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [backBtn setImage:[UIImage imageNamed:@"back_icon"] forState:UIControlStateNormal];
+        [backBtn sizeToFit];
+        [backBtn addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
         viewController.hidesBottomBarWhenPushed = YES;
     }
         [super pushViewController:viewController animated:animated];
 }
 
-//- (void)back:(UIViewController *)viewController {
-//    [self popViewControllerAnimated:YES];
-//}
+- (void)back:(UIViewController *)viewController {
+    [self popViewControllerAnimated:YES];
+}
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
     return self.childViewControllers.count > 1;

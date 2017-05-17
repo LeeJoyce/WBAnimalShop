@@ -16,11 +16,17 @@
     }else return NO;
 }
 + (NSString *)getToken { return [[NSUserDefaults standardUserDefaults] objectForKey:@"token"];}
-+ (NSString *)getIcon { return [[NSUserDefaults standardUserDefaults] objectForKey:@"icon"];}
++ (NSData *)getIcon { return [[NSUserDefaults standardUserDefaults] objectForKey:@"icon"];}
+
++ (NSString *)getAccont {return [[NSUserDefaults standardUserDefaults] objectForKey:@"accont"];}
++ (NSString *)getSecret {return [[NSUserDefaults standardUserDefaults] objectForKey:@"secret"];}
+
+
 + (void)removeUserKey {
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"icon"];
 }
+
+
 
 
 

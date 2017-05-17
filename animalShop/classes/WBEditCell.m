@@ -20,9 +20,18 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.infoTF.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, self.infoTF.zy_higth)];
+    self.selectionStyle = NO;
+    self.infoTF.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 15, self.infoTF.zy_higth)];
     self.infoTF.leftViewMode = UITextFieldViewModeAlways;
+    self.infoTF.userInteractionEnabled = NO;
+    
     self.infoTF.delegate = self;
+    [self.editBtn addTarget:self action:@selector(edit) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)edit {
+    self.infoTF.userInteractionEnabled = YES;
+    [self.infoTF becomeFirstResponder];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
@@ -30,9 +39,6 @@
     return YES;
 }
 
-- (void)setCellWithIndex:(NSInteger)index InfoArr:(NSMutableArray *)arr {
-    self.infoTF.text = arr[index];
-}
 
 
 @end
