@@ -112,10 +112,11 @@
     }else
         ImageData = UIImagePNGRepresentation(photo);
     
-    [self.userIcon setImage:photo forState:UIControlStateNormal];
+    [self.userIcon setBackgroundImage:photo forState:UIControlStateNormal];
     
     [[NSUserDefaults standardUserDefaults] setObject:ImageData forKey:@"icon"];
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {

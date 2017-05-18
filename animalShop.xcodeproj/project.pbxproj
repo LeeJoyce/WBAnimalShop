@@ -24,6 +24,8 @@
 		A8479BBD1EC987FE00E0ACF4 /* PussBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BBB1EC987FE00E0ACF4 /* PussBannerView.m */; };
 		A8479BC01EC992E300E0ACF4 /* UIView+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BBF1EC992E300E0ACF4 /* UIView+ZY.m */; };
 		A8479BCF1EC99E3400E0ACF4 /* WBAnimalJump.m in Sources */ = {isa = PBXBuildFile; fileRef = A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */; };
+		A88E20301ECD774700E7EDC3 /* WBCircleDetialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A88E202E1ECD774700E7EDC3 /* WBCircleDetialVC.m */; };
+		A88E20311ECD774700E7EDC3 /* WBCircleDetialVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88E202F1ECD774700E7EDC3 /* WBCircleDetialVC.xib */; };
 		A88F17BD1ECBF7FE00F93BDA /* registeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F17B81ECBF7FE00F93BDA /* registeVC.m */; };
 		A88F17BE1ECBF7FE00F93BDA /* registeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88F17B91ECBF7FE00F93BDA /* registeVC.xib */; };
 		A88F17BF1ECBF7FE00F93BDA /* LoginViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F17BB1ECBF7FE00F93BDA /* LoginViewC.m */; };
@@ -77,7 +79,7 @@
 		A8479B871EC9595500E0ACF4 /* animalShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animalShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8479B8B1EC9595500E0ACF4 /* animalShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animalShopUITests.m; sourceTree = "<group>"; };
 		A8479B8D1EC9595500E0ACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8479B9A1EC95BA700E0ACF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8479B9A1EC95BA700E0ACF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = other/Info.plist; sourceTree = "<group>"; };
 		A8479B9B1EC95BA700E0ACF4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8479B9D1EC95BA700E0ACF4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8479B9E1EC95BA700E0ACF4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +102,9 @@
 		A8479BBF1EC992E300E0ACF4 /* UIView+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZY.m"; sourceTree = "<group>"; };
 		A8479BCD1EC99E3300E0ACF4 /* WBAnimalJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAnimalJump.h; sourceTree = "<group>"; };
 		A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAnimalJump.m; sourceTree = "<group>"; };
+		A88E202D1ECD774700E7EDC3 /* WBCircleDetialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCircleDetialVC.h; sourceTree = "<group>"; };
+		A88E202E1ECD774700E7EDC3 /* WBCircleDetialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCircleDetialVC.m; sourceTree = "<group>"; };
+		A88E202F1ECD774700E7EDC3 /* WBCircleDetialVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBCircleDetialVC.xib; sourceTree = "<group>"; };
 		A88F17B71ECBF7FE00F93BDA /* registeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registeVC.h; sourceTree = "<group>"; };
 		A88F17B81ECBF7FE00F93BDA /* registeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registeVC.m; sourceTree = "<group>"; };
 		A88F17B91ECBF7FE00F93BDA /* registeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registeVC.xib; sourceTree = "<group>"; };
@@ -129,7 +134,7 @@
 		E94F76A01ECB471B0086FBAE /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
 		E94F76A11ECB471B0086FBAE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		E94F76A21ECB471B0086FBAE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
-		E9ED9D311ECC9E3400F5481B /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		E9ED9D311ECC9E3400F5481B /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json.txt; path = other/json.txt; sourceTree = "<group>"; };
 		E9ED9D331ECCA01C00F5481B /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		E9ED9D341ECCA01C00F5481B /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +222,8 @@
 		A8479B661EC9595400E0ACF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9ED9D311ECC9E3400F5481B /* json.txt */,
+				A8479B9A1EC95BA700E0ACF4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,8 +249,6 @@
 		A8479B991EC95BA700E0ACF4 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				E9ED9D311ECC9E3400F5481B /* json.txt */,
-				A8479B9A1EC95BA700E0ACF4 /* Info.plist */,
 				A8479B9B1EC95BA700E0ACF4 /* main.m */,
 			);
 			path = other;
@@ -309,8 +314,8 @@
 		A8479BC21EC99A0900E0ACF4 /* Circle */ = {
 			isa = PBXGroup;
 			children = (
-				A88F17C11ECC504C00F93BDA /* View */,
 				A88F17B41ECBF44900F93BDA /* Controller */,
+				A88F17C11ECC504C00F93BDA /* View */,
 			);
 			name = Circle;
 			sourceTree = "<group>";
@@ -327,8 +332,8 @@
 		A8479BC41EC99A3F00E0ACF4 /* mine */ = {
 			isa = PBXGroup;
 			children = (
-				A88F17B61ECBF47500F93BDA /* View */,
 				A88F17B51ECBF46100F93BDA /* Controller */,
+				A88F17B61ECBF47500F93BDA /* View */,
 			);
 			name = mine;
 			sourceTree = "<group>";
@@ -358,6 +363,9 @@
 			children = (
 				A8479BAB1EC97D7400E0ACF4 /* WBCircleVC.h */,
 				A8479BAC1EC97D7400E0ACF4 /* WBCircleVC.m */,
+				A88E202D1ECD774700E7EDC3 /* WBCircleDetialVC.h */,
+				A88E202E1ECD774700E7EDC3 /* WBCircleDetialVC.m */,
+				A88E202F1ECD774700E7EDC3 /* WBCircleDetialVC.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -393,10 +401,10 @@
 		A88F17C11ECC504C00F93BDA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A88F17C21ECC507C00F93BDA /* WBCircleHeaderView.h */,
 				A88F17C71ECC6C7700F93BDA /* WBCircleCell.h */,
 				A88F17C81ECC6C7700F93BDA /* WBCircleCell.m */,
 				A88F17C91ECC6C7700F93BDA /* WBCircleCell.xib */,
+				A88F17C21ECC507C00F93BDA /* WBCircleHeaderView.h */,
 				A88F17C31ECC507C00F93BDA /* WBCircleHeaderView.m */,
 				A88F17C51ECC508800F93BDA /* WBCircleHeaderView.xib */,
 			);
@@ -546,6 +554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88E20311ECD774700E7EDC3 /* WBCircleDetialVC.xib in Resources */,
 				A88F17CB1ECC6C7700F93BDA /* WBCircleCell.xib in Resources */,
 				A8479BA21EC95BA700E0ACF4 /* Info.plist in Resources */,
 				A88F17BE1ECBF7FE00F93BDA /* registeVC.xib in Resources */,
@@ -632,6 +641,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8AC4B8D1ECB189F00DD5FBF /* WBEditCell.m in Sources */,
+				A88E20301ECD774700E7EDC3 /* WBCircleDetialVC.m in Sources */,
 				A8479BB61EC9843400E0ACF4 /* WBNavC.m in Sources */,
 				E94F769C1ECB47040086FBAE /* NewsCell.m in Sources */,
 				E9ED9D351ECCA01C00F5481B /* DogViewController.m in Sources */,

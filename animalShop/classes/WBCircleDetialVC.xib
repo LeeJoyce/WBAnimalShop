@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WBCircleDetialVC">
+            <connections>
+                <outlet property="ImgBtn" destination="vsH-aa-zDb" id="ei6-b4-A47"/>
+                <outlet property="deleteBtn" destination="L2V-tK-2Zr" id="HJV-Md-7Z3"/>
+                <outlet property="textSView" destination="qSj-Cj-Ili" id="FSU-nE-zG3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8wY-N9-CqQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qSj-Cj-Ili">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsH-aa-zDb">
+                            <rect key="frame" x="20" y="177" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="vsH-aa-zDb" secondAttribute="height" multiplier="1:1" id="Pki-ez-avW"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="addPhone"/>
+                            <connections>
+                                <action selector="addPhone:" destination="-1" eventType="touchUpInside" id="E4n-PG-nsx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2V-tK-2Zr">
+                            <rect key="frame" x="76" y="177" width="24" height="24"/>
+                            <state key="normal" image="delete"/>
+                            <connections>
+                                <action selector="deleted:" destination="-1" eventType="touchUpInside" id="JQM-A6-oQs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="vsH-aa-zDb" firstAttribute="height" secondItem="8wY-N9-CqQ" secondAttribute="height" multiplier="0.3" id="3kM-Tu-JFt"/>
+                        <constraint firstItem="qSj-Cj-Ili" firstAttribute="centerX" secondItem="8wY-N9-CqQ" secondAttribute="centerX" id="Fp3-9C-1NX"/>
+                        <constraint firstItem="qSj-Cj-Ili" firstAttribute="leading" secondItem="8wY-N9-CqQ" secondAttribute="leading" id="Hh0-6a-GaM"/>
+                        <constraint firstItem="vsH-aa-zDb" firstAttribute="top" secondItem="qSj-Cj-Ili" secondAttribute="bottom" constant="10" id="Vh2-wu-kaw"/>
+                        <constraint firstItem="L2V-tK-2Zr" firstAttribute="top" secondItem="vsH-aa-zDb" secondAttribute="top" id="Wjv-kq-CRX"/>
+                        <constraint firstItem="L2V-tK-2Zr" firstAttribute="trailing" secondItem="vsH-aa-zDb" secondAttribute="trailing" id="XKJ-jw-PIG"/>
+                        <constraint firstItem="qSj-Cj-Ili" firstAttribute="top" secondItem="8wY-N9-CqQ" secondAttribute="top" id="XkJ-qS-Y0u"/>
+                        <constraint firstItem="vsH-aa-zDb" firstAttribute="leading" secondItem="8wY-N9-CqQ" secondAttribute="leading" constant="20" id="uSk-vM-sW0"/>
+                        <constraint firstAttribute="bottom" secondItem="vsH-aa-zDb" secondAttribute="bottom" constant="10" id="yBb-wP-M4E"/>
+                        <constraint firstItem="qSj-Cj-Ili" firstAttribute="width" secondItem="8wY-N9-CqQ" secondAttribute="width" id="zeq-EX-0wH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8wY-N9-CqQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="10V-0M-ahI"/>
+                <constraint firstAttribute="trailing" secondItem="8wY-N9-CqQ" secondAttribute="trailing" id="5Ez-LE-ZbO"/>
+                <constraint firstItem="8wY-N9-CqQ" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.4" id="R6a-Tq-HfO"/>
+                <constraint firstItem="8wY-N9-CqQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pqL-qj-ZJg"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addPhone" width="64" height="64"/>
+        <image name="delete" width="24" height="24"/>
+    </resources>
+</document>

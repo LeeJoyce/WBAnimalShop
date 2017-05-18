@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UILabel *say;
+@property (weak, nonatomic) IBOutlet UIImageView *photo;
 @property (weak, nonatomic) IBOutlet UILabel *commentLab;
 @end
 
@@ -20,13 +21,20 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
+- (void)setSourceWithSourceDict:(NSDictionary *)dict {
+    self.icon.image = [UIImage imageNamed:dict[@"icon"]];
+    self.name.text = dict[@"name"];
+    if (dict[@"commnt"] == [NSNull null]) {
+        self.commentLab.zy_higth = 1;
+    }else self.commentLab.text = dict[@"commnt"];
+    self.say.text = dict[@"text"];
+    if (dict[@"photo"] == [NSNull null]) {
+        self.photo.zy_higth = 1;
+    }else self.photo.image = [UIImage imageNamed:dict[@"photo"]];
 }
 
 @end

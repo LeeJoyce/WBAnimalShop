@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WBCircleCell : UITableViewCell
-
+- (void)setSourceWithSourceDict:(NSDictionary *)dict;
 @end

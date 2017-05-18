@@ -23,6 +23,7 @@
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="17I-Sv-FXa">
                     <rect key="frame" x="288" y="157.5" width="74" height="74"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="17I-Sv-FXa" secondAttribute="height" multiplier="1:1" id="h5o-YC-Yfl"/>
                     </constraints>
