@@ -10,6 +10,11 @@
 #import "PussBannerView.h"
 #import "WBAnimalJump.h"
 #import "DogViewController.h"
+#import "CatViewController.h"
+#import "RatViewController.h"
+#import "BirdViewController.h"
+#import "FishViewController.h"
+#import "RabbitViewController.h"
 
 @interface WBMainVC ()<UISearchBarDelegate>
 
@@ -62,24 +67,39 @@
         }
             break;
             
-        case 1:
-            NSLog(@"猫");
+        case 1:{
+            CatViewController *dog = [[CatViewController alloc] init];
+            dog.title = btn.titleLabel.text;
+            [self.navigationController pushViewController:dog animated:YES];
+        }
             break;
             
-        case 2:
-            NSLog(@"鼠");
+        case 2:{
+            RatViewController *dog = [[RatViewController alloc] init];
+            dog.title = btn.titleLabel.text;
+            [self.navigationController pushViewController:dog animated:YES];
+        }
             break;
             
-        case 3:
-            NSLog(@"鸟");
+        case 3:{
+            BirdViewController *dog = [[BirdViewController alloc] init];
+            dog.title = btn.titleLabel.text;
+            [self.navigationController pushViewController:dog animated:YES];
+        }
             break;
             
-        case 4:
-            NSLog(@"水");
+        case 4:{
+            FishViewController *dog = [[FishViewController alloc] init];
+            dog.title = btn.titleLabel.text;
+            [self.navigationController pushViewController:dog animated:YES];
+        }
             break;
             
-        case 5:
-            NSLog(@"兔子");
+        case 5:{
+            RabbitViewController *dog = [[RabbitViewController alloc] init];
+            dog.title = btn.titleLabel.text;
+            [self.navigationController pushViewController:dog animated:YES];
+        }
             break;
             
         default:

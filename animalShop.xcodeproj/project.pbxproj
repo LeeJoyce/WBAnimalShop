@@ -47,6 +47,14 @@
 		E94F76A51ECB471B0086FBAE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F76A21ECB471B0086FBAE /* NewsViewController.m */; };
 		E9ED9D321ECC9E3400F5481B /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D311ECC9E3400F5481B /* json.txt */; };
 		E9ED9D351ECCA01C00F5481B /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D341ECCA01C00F5481B /* DogViewController.m */; };
+		E9ED9D391ECDE90B00F5481B /* AnimalKindsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D371ECDE90B00F5481B /* AnimalKindsCell.m */; };
+		E9ED9D3A1ECDE90B00F5481B /* AnimalKindsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D381ECDE90B00F5481B /* AnimalKindsCell.xib */; };
+		E9ED9D3E1ECDEA6200F5481B /* AnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D3D1ECDEA6200F5481B /* AnimalModel.m */; };
+		E9ED9D411ECDEF3C00F5481B /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D401ECDEF3C00F5481B /* CatViewController.m */; };
+		E9ED9D441ECDEF5100F5481B /* RatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D431ECDEF5100F5481B /* RatViewController.m */; };
+		E9ED9D471ECDEF5B00F5481B /* BirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D461ECDEF5B00F5481B /* BirdViewController.m */; };
+		E9ED9D4A1ECDEF6900F5481B /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D491ECDEF6900F5481B /* FishViewController.m */; };
+		E9ED9D4D1ECDEF7300F5481B /* RabbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D4C1ECDEF7300F5481B /* RabbitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +145,21 @@
 		E9ED9D311ECC9E3400F5481B /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json.txt; path = other/json.txt; sourceTree = "<group>"; };
 		E9ED9D331ECCA01C00F5481B /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		E9ED9D341ECCA01C00F5481B /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
+		E9ED9D361ECDE90B00F5481B /* AnimalKindsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalKindsCell.h; sourceTree = "<group>"; };
+		E9ED9D371ECDE90B00F5481B /* AnimalKindsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalKindsCell.m; sourceTree = "<group>"; };
+		E9ED9D381ECDE90B00F5481B /* AnimalKindsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalKindsCell.xib; sourceTree = "<group>"; };
+		E9ED9D3C1ECDEA6200F5481B /* AnimalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalModel.h; sourceTree = "<group>"; };
+		E9ED9D3D1ECDEA6200F5481B /* AnimalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalModel.m; sourceTree = "<group>"; };
+		E9ED9D3F1ECDEF3C00F5481B /* CatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
+		E9ED9D401ECDEF3C00F5481B /* CatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
+		E9ED9D421ECDEF5100F5481B /* RatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatViewController.h; sourceTree = "<group>"; };
+		E9ED9D431ECDEF5100F5481B /* RatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatViewController.m; sourceTree = "<group>"; };
+		E9ED9D451ECDEF5B00F5481B /* BirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdViewController.h; sourceTree = "<group>"; };
+		E9ED9D461ECDEF5B00F5481B /* BirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdViewController.m; sourceTree = "<group>"; };
+		E9ED9D481ECDEF6900F5481B /* FishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishViewController.h; sourceTree = "<group>"; };
+		E9ED9D491ECDEF6900F5481B /* FishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishViewController.m; sourceTree = "<group>"; };
+		E9ED9D4B1ECDEF7300F5481B /* RabbitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RabbitViewController.h; sourceTree = "<group>"; };
+		E9ED9D4C1ECDEF7300F5481B /* RabbitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RabbitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +328,7 @@
 		A8479BC11EC999FC00E0ACF4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E9ED9D3B1ECDEA2A00F5481B /* Model */,
 				A88F17B21ECBF3EE00F93BDA /* Controller */,
 				A88F17B31ECBF41E00F93BDA /* View */,
 			);
@@ -345,6 +369,16 @@
 				A8479BA11EC95BA700E0ACF4 /* WBMainVC.m */,
 				E9ED9D331ECCA01C00F5481B /* DogViewController.h */,
 				E9ED9D341ECCA01C00F5481B /* DogViewController.m */,
+				E9ED9D3F1ECDEF3C00F5481B /* CatViewController.h */,
+				E9ED9D401ECDEF3C00F5481B /* CatViewController.m */,
+				E9ED9D421ECDEF5100F5481B /* RatViewController.h */,
+				E9ED9D431ECDEF5100F5481B /* RatViewController.m */,
+				E9ED9D451ECDEF5B00F5481B /* BirdViewController.h */,
+				E9ED9D461ECDEF5B00F5481B /* BirdViewController.m */,
+				E9ED9D481ECDEF6900F5481B /* FishViewController.h */,
+				E9ED9D491ECDEF6900F5481B /* FishViewController.m */,
+				E9ED9D4B1ECDEF7300F5481B /* RabbitViewController.h */,
+				E9ED9D4C1ECDEF7300F5481B /* RabbitViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -354,6 +388,9 @@
 			children = (
 				A8479BCD1EC99E3300E0ACF4 /* WBAnimalJump.h */,
 				A8479BCE1EC99E3400E0ACF4 /* WBAnimalJump.m */,
+				E9ED9D361ECDE90B00F5481B /* AnimalKindsCell.h */,
+				E9ED9D371ECDE90B00F5481B /* AnimalKindsCell.m */,
+				E9ED9D381ECDE90B00F5481B /* AnimalKindsCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -440,6 +477,15 @@
 				E94F769B1ECB47040086FBAE /* NewsCell.xib */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		E9ED9D3B1ECDEA2A00F5481B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED9D3C1ECDEA6200F5481B /* AnimalModel.h */,
+				E9ED9D3D1ECDEA6200F5481B /* AnimalModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -567,6 +613,7 @@
 				E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */,
 				A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */,
 				A8AC4B8E1ECB189F00DD5FBF /* WBEditCell.xib in Resources */,
+				E9ED9D3A1ECDE90B00F5481B /* AnimalKindsCell.xib in Resources */,
 				A8AC4B821ECAF6A500DD5FBF /* WBMineVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,23 +692,30 @@
 				A8479BB61EC9843400E0ACF4 /* WBNavC.m in Sources */,
 				E94F769C1ECB47040086FBAE /* NewsCell.m in Sources */,
 				E9ED9D351ECCA01C00F5481B /* DogViewController.m in Sources */,
+				E9ED9D411ECDEF3C00F5481B /* CatViewController.m in Sources */,
 				A8479BBC1EC987FE00E0ACF4 /* PussCollectionViewCell.m in Sources */,
 				A8479BA51EC95BA700E0ACF4 /* WBMainVC.m in Sources */,
+				E9ED9D3E1ECDEA6200F5481B /* AnimalModel.m in Sources */,
+				E9ED9D391ECDE90B00F5481B /* AnimalKindsCell.m in Sources */,
 				A8479BAD1EC97D7400E0ACF4 /* WBCircleVC.m in Sources */,
 				A88F17BF1ECBF7FE00F93BDA /* LoginViewC.m in Sources */,
 				A8AC4B941ECB26FC00DD5FBF /* WBLoginBtn.m in Sources */,
 				A8479BC01EC992E300E0ACF4 /* UIView+ZY.m in Sources */,
+				E9ED9D4D1ECDEF7300F5481B /* RabbitViewController.m in Sources */,
 				A8AC4B861ECAFD1F00DD5FBF /* userTokenTool.m in Sources */,
 				E94F76A31ECB471B0086FBAE /* DetailController.m in Sources */,
 				A8479BBD1EC987FE00E0ACF4 /* PussBannerView.m in Sources */,
 				A8479BA41EC95BA700E0ACF4 /* AppDelegate.m in Sources */,
 				A8479BCF1EC99E3400E0ACF4 /* WBAnimalJump.m in Sources */,
+				E9ED9D471ECDEF5B00F5481B /* BirdViewController.m in Sources */,
 				A8479BA81EC95C8F00E0ACF4 /* WBTabBar.m in Sources */,
 				A88F17BD1ECBF7FE00F93BDA /* registeVC.m in Sources */,
 				E94F76A51ECB471B0086FBAE /* NewsViewController.m in Sources */,
 				A8479BA31EC95BA700E0ACF4 /* main.m in Sources */,
 				A88F17C41ECC507C00F93BDA /* WBCircleHeaderView.m in Sources */,
 				A8479BB31EC97DA300E0ACF4 /* WBMineVC.m in Sources */,
+				E9ED9D441ECDEF5100F5481B /* RatViewController.m in Sources */,
+				E9ED9D4A1ECDEF6900F5481B /* FishViewController.m in Sources */,
 				A88F17CA1ECC6C7700F93BDA /* WBCircleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
