@@ -45,6 +45,7 @@
 #import <MJRefresh/MJRefresh.h>
 #import <MJExtension/MJExtension.h>
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "DogViewController.h"
 #endif
 #endif
 

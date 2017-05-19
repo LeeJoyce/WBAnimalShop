@@ -12,4 +12,6 @@
 @property (nonatomic, copy) NSString *titleText;
 /** 内容 */
 @property (nonatomic, copy) NSString *contentText;
+/** nav */
+@property (nonatomic, copy) NSString *navText;
 @end

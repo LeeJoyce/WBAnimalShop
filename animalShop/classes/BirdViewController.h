@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BirdViewController : UIViewController
-
+@interface BirdViewController : DogViewController
+@property (nonatomic, strong) NSArray *jsonArray;
 @end

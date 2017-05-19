@@ -26,7 +26,7 @@
     _model = model;
     _animalNameLabel.text = model.name;
 //    [_animalImageView sd_setImageWithURL:[NSURL URLWithString:model.imageName]];
-    [_animalImageView sd_setImageWithURL:[NSURL URLWithString:@"http://img.boqiicdn.com/Data/BK/P/imagick83771435571788.png"] placeholderImage:[UIImage imageNamed:@"delete"]];
+    [_animalImageView sd_setImageWithURL:[NSURL URLWithString:model.imageName] placeholderImage:[UIImage imageNamed:@"http://img.boqiicdn.com/Data/BK/P/imagick83771435571788.png"]];
     NSLog(@"%@", model.imageName);
 }
 

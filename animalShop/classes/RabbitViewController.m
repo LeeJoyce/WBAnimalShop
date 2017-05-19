@@ -24,6 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSArray *)jsonArray
+{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"other" ofType:@"txt"];
+    NSError *error = nil;
+    NSString *jsonStr = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+    return [NSJSONSerialization JSONObjectWithData:[jsonStr dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:nil];
+    
+}
+
 /*
 #pragma mark - Navigation
 

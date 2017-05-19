@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RatViewController : UIViewController
-
+@interface RatViewController : DogViewController
+@property (nonatomic, strong) NSArray *jsonArray;
 @end

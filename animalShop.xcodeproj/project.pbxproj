@@ -55,6 +55,12 @@
 		E9ED9D471ECDEF5B00F5481B /* BirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D461ECDEF5B00F5481B /* BirdViewController.m */; };
 		E9ED9D4A1ECDEF6900F5481B /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D491ECDEF6900F5481B /* FishViewController.m */; };
 		E9ED9D4D1ECDEF7300F5481B /* RabbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED9D4C1ECDEF7300F5481B /* RabbitViewController.m */; };
+		E9ED9D551ECF3F1400F5481B /* bird.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D4F1ECF3F1400F5481B /* bird.txt */; };
+		E9ED9D561ECF3F1400F5481B /* cat.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D501ECF3F1400F5481B /* cat.txt */; };
+		E9ED9D571ECF3F1400F5481B /* dog.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D511ECF3F1400F5481B /* dog.txt */; };
+		E9ED9D581ECF3F1400F5481B /* fish.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D521ECF3F1400F5481B /* fish.txt */; };
+		E9ED9D591ECF3F1400F5481B /* other.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D531ECF3F1400F5481B /* other.txt */; };
+		E9ED9D5A1ECF3F1400F5481B /* rat.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9ED9D541ECF3F1400F5481B /* rat.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,7 +148,7 @@
 		E94F76A01ECB471B0086FBAE /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
 		E94F76A11ECB471B0086FBAE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		E94F76A21ECB471B0086FBAE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
-		E9ED9D311ECC9E3400F5481B /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json.txt; path = other/json.txt; sourceTree = "<group>"; };
+		E9ED9D311ECC9E3400F5481B /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json.txt; path = ../other/json.txt; sourceTree = "<group>"; };
 		E9ED9D331ECCA01C00F5481B /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		E9ED9D341ECCA01C00F5481B /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 		E9ED9D361ECDE90B00F5481B /* AnimalKindsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalKindsCell.h; sourceTree = "<group>"; };
@@ -160,6 +166,12 @@
 		E9ED9D491ECDEF6900F5481B /* FishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishViewController.m; sourceTree = "<group>"; };
 		E9ED9D4B1ECDEF7300F5481B /* RabbitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RabbitViewController.h; sourceTree = "<group>"; };
 		E9ED9D4C1ECDEF7300F5481B /* RabbitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RabbitViewController.m; sourceTree = "<group>"; };
+		E9ED9D4F1ECF3F1400F5481B /* bird.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bird.txt; sourceTree = "<group>"; };
+		E9ED9D501ECF3F1400F5481B /* cat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cat.txt; sourceTree = "<group>"; };
+		E9ED9D511ECF3F1400F5481B /* dog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dog.txt; sourceTree = "<group>"; };
+		E9ED9D521ECF3F1400F5481B /* fish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fish.txt; sourceTree = "<group>"; };
+		E9ED9D531ECF3F1400F5481B /* other.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = other.txt; sourceTree = "<group>"; };
+		E9ED9D541ECF3F1400F5481B /* rat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rat.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +257,7 @@
 		A8479B661EC9595400E0ACF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9ED9D311ECC9E3400F5481B /* json.txt */,
+				E9ED9D4E1ECF3F1400F5481B /* json */,
 				A8479B9A1EC95BA700E0ACF4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -488,6 +500,20 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		E9ED9D4E1ECF3F1400F5481B /* json */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED9D311ECC9E3400F5481B /* json.txt */,
+				E9ED9D4F1ECF3F1400F5481B /* bird.txt */,
+				E9ED9D501ECF3F1400F5481B /* cat.txt */,
+				E9ED9D511ECF3F1400F5481B /* dog.txt */,
+				E9ED9D521ECF3F1400F5481B /* fish.txt */,
+				E9ED9D531ECF3F1400F5481B /* other.txt */,
+				E9ED9D541ECF3F1400F5481B /* rat.txt */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -600,19 +626,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9ED9D5A1ECF3F1400F5481B /* rat.txt in Resources */,
 				A88E20311ECD774700E7EDC3 /* WBCircleDetialVC.xib in Resources */,
+				E9ED9D591ECF3F1400F5481B /* other.txt in Resources */,
 				A88F17CB1ECC6C7700F93BDA /* WBCircleCell.xib in Resources */,
 				A8479BA21EC95BA700E0ACF4 /* Info.plist in Resources */,
 				A88F17BE1ECBF7FE00F93BDA /* registeVC.xib in Resources */,
 				A8479B761EC9595400E0ACF4 /* LaunchScreen.storyboard in Resources */,
 				E94F769D1ECB47040086FBAE /* NewsCell.xib in Resources */,
 				A88F17C01ECBF7FE00F93BDA /* LoginViewC.xib in Resources */,
+				E9ED9D551ECF3F1400F5481B /* bird.txt in Resources */,
 				A88F17C61ECC508800F93BDA /* WBCircleHeaderView.xib in Resources */,
 				A8479B731EC9595400E0ACF4 /* Assets.xcassets in Resources */,
 				E9ED9D321ECC9E3400F5481B /* json.txt in Resources */,
+				E9ED9D561ECF3F1400F5481B /* cat.txt in Resources */,
+				E9ED9D581ECF3F1400F5481B /* fish.txt in Resources */,
 				E94F76A41ECB471B0086FBAE /* DetailController.xib in Resources */,
 				A8479B711EC9595400E0ACF4 /* Main.storyboard in Resources */,
 				A8AC4B8E1ECB189F00DD5FBF /* WBEditCell.xib in Resources */,
+				E9ED9D571ECF3F1400F5481B /* dog.txt in Resources */,
 				E9ED9D3A1ECDE90B00F5481B /* AnimalKindsCell.xib in Resources */,
 				A8AC4B821ECAF6A500DD5FBF /* WBMineVC.xib in Resources */,
 			);

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FishViewController : UIViewController
-
+@interface FishViewController : DogViewController
+@property (nonatomic, strong) NSArray *jsonArray;
 @end

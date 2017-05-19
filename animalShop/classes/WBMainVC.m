@@ -128,7 +128,7 @@
 }
 - (PussBannerView *)banner {
     if (_banner == nil) {
-        _banner = [PussBannerView bannerWithFrame:CGRectMake(0, 64 + 36, self.view.zy_width, self.view.zy_width * 0.7) imageNameGroup:@[@"1",@"2",@"3"]shouldUnlimitedLoop:YES];
+        _banner = [PussBannerView bannerWithFrame:CGRectMake(0, 64 + 36, self.view.zy_width, self.view.zy_width * 0.5) imageNameGroup:@[@"1",@"2",@"3"]shouldUnlimitedLoop:YES];
         _banner.isUnlimitedLoop = YES;
         _banner.pageAlignment = PussPageControlAlignmentCenter;
         _banner.currentDotColor = WBMainColor;
@@ -142,13 +142,14 @@
 - (UIScrollView *)scroll {
     if (_scroll == nil) {
         _scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.banner.frame), self.view.zy_width, self.view.zy_higth - CGRectGetMaxY(self.banner.frame) - 44)];
+        _scroll.backgroundColor = ZYColor(222, 222, 222);
     }
     return _scroll;
 }
 
 - (NSArray *)kindArr {
     if (_kindArr == nil) {
-        _kindArr = [NSArray arrayWithObjects:@"宠物狗",@"宠物猫",@"宠物鼠",@"宠物鸟",@"水族宠物",@"宠物兔", nil];
+        _kindArr = [NSArray arrayWithObjects:@"宠物狗",@"宠物猫",@"宠物鼠",@"宠物鸟",@"水族宠物",@"其它", nil];
     }
     return _kindArr;
 }

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DogViewController : UIViewController
-
+@property (nonatomic, strong) NSArray *jsonArray;
 @end

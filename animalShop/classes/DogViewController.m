@@ -23,13 +23,10 @@ static NSString * animalCellID = @"animalCell";
     [super viewDidLoad];
     self.title = @"宠物狗";
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"json" ofType:@"txt"];
-    NSError *error = nil;
-    NSString *jsonStr = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-    NSMutableArray *array = [NSJSONSerialization JSONObjectWithData:[jsonStr dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:nil];
+    
     
     //字典转模型
-    self.dogArray = [AnimalModel mj_objectArrayWithKeyValuesArray:array];
+    self.dogArray = [AnimalModel mj_objectArrayWithKeyValuesArray:self.jsonArray];
     
     [self setupTableView];
     
@@ -43,6 +40,7 @@ static NSString * animalCellID = @"animalCell";
     self.tableView.rowHeight = 100;
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self.tableView registerNib:[UINib nibWithNibName:@"AnimalKindsCell" bundle:nil] forCellReuseIdentifier:animalCellID];
+    self.tableView.tableFooterView = [UIView new];
     [self.view addSubview:_tableView];
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -68,6 +66,7 @@ static NSString * animalCellID = @"animalCell";
     AnimalModel *model = self.dogArray[indexPath.row];
     detail.titleText = model.name;
     detail.contentText = model.detail;
+    detail.navText = [NSString stringWithFormat:@"%@详细信息", model.name];
     [self.navigationController pushViewController:detail animated:YES];
 }
 
@@ -80,5 +79,15 @@ static NSString * animalCellID = @"animalCell";
     return _tableView;
 }
 
+- (NSArray *)jsonArray
+{
+    if (!_jsonArray) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"dog" ofType:@"txt"];
+        NSError *error = nil;
+        NSString *jsonStr = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        _jsonArray = [NSJSONSerialization JSONObjectWithData:[jsonStr dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:nil];
+    }
+    return _jsonArray;
+}
 
 @end

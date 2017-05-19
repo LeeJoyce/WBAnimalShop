@@ -18,13 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"消息";
+    if (self.navText) {
+        self.navigationItem.title = self.navText;
+    } else {
+        self.navigationItem.title = @"消息";
+    }
+    
     
     self.mainScroll.showsVerticalScrollIndicator = NO;
     self.mainScroll.bounces = NO;
     
     self.titleLabel.text = self.titleText;
     self.detailLabel.text = self.contentText;
+    
 }
 
 
