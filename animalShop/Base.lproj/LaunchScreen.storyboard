@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,23 +21,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎来到宠物部落☺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jC5-BD-KiC">
-                                <rect key="frame" x="40" y="314.5" width="295" height="39"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lanch" translatesAutoresizingMaskIntoConstraints="NO" id="vuW-sl-tfN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎来到宠物部落" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jC5-BD-KiC">
+                                <rect key="frame" x="58" y="314" width="259" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.9627419114112854" green="0.86895078420639038" blue="0.93872731924057007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="vuW-sl-tfN" secondAttribute="bottom" id="7cA-Oh-nGv"/>
                             <constraint firstItem="jC5-BD-KiC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="96Q-Bc-Sco"/>
+                            <constraint firstItem="vuW-sl-tfN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Fmh-Vf-FoM"/>
+                            <constraint firstAttribute="trailing" secondItem="vuW-sl-tfN" secondAttribute="trailing" id="LJn-jM-h4w"/>
                             <constraint firstItem="jC5-BD-KiC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ony-cr-OvB"/>
+                            <constraint firstItem="vuW-sl-tfN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bb9-XE-Occ"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-918" y="206"/>
+            <point key="canvasLocation" x="-919.20000000000005" y="205.54722638680661"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lanch" width="720" height="1280"/>
+    </resources>
 </document>

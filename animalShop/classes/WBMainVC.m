@@ -108,13 +108,25 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    if ([searchBar.text containsString:@"狗"] || [searchBar.text containsString:@"gou"]) {
+        [self.navigationController pushViewController:[[DogViewController alloc] init] animated:YES];
+    }else if ([searchBar.text containsString:@"猫"] || [searchBar.text containsString:@"mao"]) {
+        [self.navigationController pushViewController:[[CatViewController alloc] init] animated:YES];
+    }else if ([searchBar.text containsString:@"鼠"] || [searchBar.text containsString:@"shu"]) {
+        [self.navigationController pushViewController:[[RatViewController alloc] init] animated:YES];
+    }else if ([searchBar.text containsString:@"鸟"] || [searchBar.text containsString:@"niao"]) {
+        [self.navigationController pushViewController:[[BirdViewController alloc] init] animated:YES];
+    }else if ([searchBar.text containsString:@"鱼"] || [searchBar.text containsString:@"yu"]) {
+        [self.navigationController pushViewController:[[FishViewController alloc] init] animated:YES];
+    }else [SVProgressHUD showInfoWithStatus:@"有0条搜索结果"];
+    
     [_search resignFirstResponder];
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
-//    [self resignFirstResponder];   //这里写错了
     [self.view endEditing:YES];
 }
+
 
 - (UISearchBar *)search {
     if (_search == nil) {

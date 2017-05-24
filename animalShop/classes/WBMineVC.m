@@ -33,7 +33,13 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     [self setUpViewsWithIsLogined];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.view endEditing:YES];
 }
 
 - (void)setBtn {
@@ -48,6 +54,7 @@
         [self.regisOrLogin setTitle:@"注销" forState:UIControlStateNormal];
         self.userIcon.enabled = YES;
         [self.view addSubview:self.table];
+        [self.table reloadData];
     }else {
         self.regisBtn.hidden = NO;
         [self.userIcon setImage:[UIImage imageNamed:@"login"] forState:UIControlStateNormal];
@@ -64,6 +71,10 @@
     self.userIcon.layer.borderColor = ZYGray(120).CGColor;
     self.userIcon.layer.masksToBounds = YES;
     [self.userIcon addTarget:self action:@selector(iconClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
 }
 
 - (void)regisClick {
@@ -97,6 +108,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     WBEditCell *cell = [tableView dequeueReusableCellWithIdentifier:@"edit"];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.infoTF.tag = indexPath.row;
+    if (indexPath.row == 0) {
+        cell.infoTF.text = [userTokenTool getNick];
+    }else cell.infoTF.text = [userTokenTool getAnimal];
     return cell;
 }
 

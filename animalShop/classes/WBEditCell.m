@@ -9,7 +9,7 @@
 #import "WBEditCell.h"
 
 @interface WBEditCell ()<UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *infoTF;
+
 @property (weak, nonatomic) IBOutlet UIButton *editBtn;
 @property (strong, nonatomic) NSString *tfText;
 
@@ -35,6 +35,11 @@
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField.tag == 0) {
+        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"nick"];
+    }else {
+        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"anmial"];
+    }
     [textField resignFirstResponder];
     return YES;
 }

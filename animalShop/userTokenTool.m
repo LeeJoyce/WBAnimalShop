@@ -21,6 +21,9 @@
 + (NSString *)getAccont {return [[NSUserDefaults standardUserDefaults] objectForKey:@"accont"];}
 + (NSString *)getSecret {return [[NSUserDefaults standardUserDefaults] objectForKey:@"secret"];}
 
++ (NSString *)getNick {return [[NSUserDefaults standardUserDefaults] objectForKey:@"nick"];}
++ (NSString *)getAnimal {return [[NSUserDefaults standardUserDefaults] objectForKey:@"animal"];}
+
 
 + (void)removeUserKey {
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];

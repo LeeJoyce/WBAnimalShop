@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WBEditCell : UITableViewCell
-//- (void)setCellWithIndex:(NSInteger)index InfoArr:(NSMutableArray *)arr;
+@property (weak, nonatomic) IBOutlet UITextField *infoTF;
 @end
