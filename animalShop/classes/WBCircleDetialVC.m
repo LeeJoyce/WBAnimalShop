@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *deleteBtn;
 @property (weak, nonatomic) IBOutlet UIButton *ImgBtn;
 
+
 @end
 
 @implementation WBCircleDetialVC
@@ -51,8 +52,18 @@
 
 - (void)sentClick {
     [self.textSView resignFirstResponder];
+    if (self.photo == nil && ([self.textSView.textColor isEqual:ZYGray(200)] || self.textSView.text.length == 0)) {
+        [SVProgressHUD showInfoWithStatus:@"您还什么都没写"];
+        return;
+    }
     [self.navigationController dismissViewControllerAnimated:YES completion:^{
-        
+        if ([_delegate respondsToSelector:@selector(releaseCircleWithText:Photo:)]) {
+            NSString *say;
+            if ([self.textSView.textColor isEqual:ZYGray(200)]) {
+                say = nil;
+            }else say = self.textSView.text;
+            [_delegate releaseCircleWithText:say Photo:self.photo];
+        }
     }];
 }
 
@@ -63,6 +74,7 @@
 - (IBAction)deleted:(UIButton *)sender {
     [self.ImgBtn setBackgroundImage:[UIImage imageNamed:@"addPhone"] forState:UIControlStateNormal];
     sender.hidden = YES;
+    self.photo = nil;
     self.ImgBtn.userInteractionEnabled = YES;
 }
 
@@ -75,9 +87,20 @@
         textView.textColor = ZYGray(0);
         textView.text = nil;
     }
-   
     return YES;
 }
+
+- (void)textViewDidChange:(UITextView *)textView {
+    if (textView.text.length == 0) {
+        textView.text = @"这一刻的想法...";
+        textView.textColor = ZYGray(200);
+    }else if ([textView.textColor isEqual:ZYGray(200)]) {
+        self.textSView.text = [textView.text substringFromIndex:self.textSView.text.length -1];
+        textView.textColor = ZYGray(0);
+    }
+}
+
+
 
 
 #pragma mark - photoDelegate
@@ -86,8 +109,10 @@
     UIImage *photo = [info objectForKey:@"UIImagePickerControllerEditedImage"];
     
     [self.ImgBtn setBackgroundImage:photo forState:UIControlStateNormal];
+    
     self.ImgBtn.userInteractionEnabled = NO;
     self.deleteBtn.hidden = NO;
+    self.photo = photo;
     
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }

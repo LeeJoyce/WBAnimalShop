@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface WBCircleCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIButton *sayBtn;
 - (void)setSourceWithSourceDict:(NSDictionary *)dict;
 @end
